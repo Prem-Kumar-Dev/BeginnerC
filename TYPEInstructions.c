@@ -17,5 +17,6 @@ int main(){
     
     printf("%f=%f*%f/%d+%d \n",a*b/c+d,a,b,c,d);                 //---> Op Precedence order: "*,/,%" > "+,-" > "="
     printf("%f=%f*%f/%d*%d\n",a*b/c*d,a,b,c,d);                  //----> Op associativity(same precedence): "Left to Right"
+    printf("%f=%f/(%f*%d)/%d\n",a/(b*c)/d,a,b,c,d);              //----> Bracket always first
     return 0;
 }
