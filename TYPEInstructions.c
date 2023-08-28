@@ -1,11 +1,7 @@
 # include<stdio.h>
 
 int main(){
-    float a=5;
-    float b=2;
-    int c=5;
-    int d=2;
-    float x;
+    float a=5; float b=2; int c=5; int d=2; float x;
     // int e=1.99999999;
     // printf("The value of %d",e);
     
