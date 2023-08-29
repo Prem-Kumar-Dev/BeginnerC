@@ -17,8 +17,8 @@ int main(){
     scanf("%d",&a);
     int i = 1;
     while(i<=a){
-        i++;
         sum+=i;
+        i++;
 
     }
     printf("Sum: %d", sum);
